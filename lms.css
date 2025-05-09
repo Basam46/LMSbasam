@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background: url('Gambar/background-login.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  color: #000000;
+  text-align: center;
+}
+
+.login-box .logo {
+  width: 130px;
+  margin-bottom: 16px;
+}
+
+.login-box h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.login-box h2 span {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  font-size: 15px;
+  outline: none;
+}
+
+.login-box input::placeholder {
+  color: #000000;
+}
+
+.login-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #007bff;
+}
+
+.login-box .guest {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #000000;
+}
+
+.login-box a {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.login-box .bottom-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-box select {
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  outline: none;
+}
