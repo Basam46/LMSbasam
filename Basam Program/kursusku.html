@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kursusku</title>
+  <link rel="stylesheet" href="kursusku.css" />
+</head>
+<body>
+  <header>
+    <img src="Gambar/logo-lms.png" alt="Logo LMS" class="logo">
+    <nav>
+      <a href="beranda.html">Beranda</a>
+      <a href="dasboard.html">Dasbor</a>
+      <a href="#" class="active">Kursusku</a>
+    </nav>
+  </header>
+
+  <main class="course-main">
+    <h1>Kursusku</h1>
+    <section class="filter-bar">
+      <select>
+        <option>Semua</option>
+      </select>
+      <input type="text" placeholder="Cari" />
+      <select>
+        <option>Urut berdasarkan nama kursus</option>
+      </select>
+      <select>
+        <option>Kartu</option>
+      </select>
+    </section>
+
+    <section class="course-grid">
+      <div class="course-card">
+        <img src="Gambar/kursus1.jpg" alt="Kursus 1" />
+        <h3>Algoritma dan Pemrograman 2 (A1)</h3>
+        <p>selesai 78%</p>
+        <progress value="78" max="100"></progress>
+      </div>
+
+      <div class="course-card">
+        <img src="Gambar/kursus2.jpg" alt="Kursus 2" />
+        <h3>Basis data (A1)</h3>
+        <p>selesai 100%</p>
+        <progress value="100" max="100"></progress>
+      </div>
+
+      <div class="course-card">
+        <img src="Gambar/kursus3.jpg" alt="Kursus 3" />
+        <h3>Praktikum Algoritma dan Pemrograman 2 (A1)</h3>
+        <p>selesai 100%</p>
+        <progress value="100" max="100"></progress>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
